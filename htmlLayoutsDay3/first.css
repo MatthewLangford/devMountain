@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+    width: 100vw;
+    height: 95vh;
+}
+header{
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blocks{
+    height: 12vh;
+    width: 13vw;
+    float: left;
+    margin: 2vh 0 1vh 5.5vh;
+}
+
+.block1{
+    background-color: red;
+}
+
+.block2{
+    background-color: #27beff;
+}
+
+.block3{
+    background-color: #2a2a2a;
+}
+main{
+    clear: left;
+    width: 45vw;
+    margin: auto;
+}
+article{
+    width: 20vw;
+    height: 45vh;
+    background-color: red;
+    float: left;
+    margin-left: 2.5vw;
+}
+section{
+    width: 24.5vw;
+    height: 45vh;
+    background-color: #27beff;
+    float: left;
+}
+footer{
+    background-color: #27beff;
+    height: 17vh;
+    clear: left;
+    margin-left: 2.5vw;
+    width: 44.5vw;
+    bottom: 4.2vh;
+    position: absolute;
+}
+.div1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    background-color: white;
+    height: 95vh;
+}
+.smallGrey{
+    width: 16vw;
+    background-color: red;
+    height: 17vh;
+    float: right;
+}
+.smallRed{
+    width: 12vw;
+    height: 17vh;
+    float: right;
+    clear: right;
+    margin-right: 2vw;
+    background-color: grey;
+
+}
