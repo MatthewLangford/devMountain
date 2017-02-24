@@ -273,36 +273,120 @@ nav{
     font-family: 'Open Sans', sans-serif;
     color: #6a787c;
     text-align: center;
+    position: relative;
+    bottom: 3vh;
+    letter-spacing: 1px;
 }
 .smallDiv1{
     width: 80%;
     height: 110px;
     justify-content: center;
+    margin-bottom: 1.5vh;
+    margin-left: 6vw;
+    padding-top: 1vh;
 }
 .smallDiv2{
     width: 80%;
     height: 140px;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 6vw;
+    margin-bottom: 1.5vh;
 }
 .smallDiv3{
     width: 80%;
-    height: 165px;
+    height: 155px;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 6vw;
 }
 .smallDiv4{
+    padding-top: 1vh;
     width: 80%;
-    height: 200px;
+    height: 180px;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 1.5vh;
+    margin-left: 2vw;
 }
 .smallDiv5{
+    margin-left: 2vw;
     width: 80%;
     height: 175px;
     flex-wrap: wrap;
     justify-content: center;
 }
+#box4{
+    padding-top: 1vh;
+}
+#box5{
+    padding-top: 3vh;
+}
+.contactUs{
+    margin-top: 7vh;
+    margin-left: auto;
+    margin-right: auto;
+    height:40px;
+    width: 170px;
+    border: 5px #c8e23a solid;
+    border-radius: 30px;
+}
+.contactAnchor{
+    text-decoration: none;
+}
+.contactUs:hover{
+    background-color: #b6d03a;
+    cursor: pointer;
+}
+.contactUs-para{
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    bottom: 6px;
+    color: white;
+}
+#section3{
+    padding-bottom: 6vh;
+}
+.blocks{
+    width: 33.33%;
+    height: 450px;
+    float: left;
+}
+
+
+.block1{
+    background-image: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/case-studies/AM-portfolio.png");
+    background-position: center;
+    background-size: contain;
+}
+.block2{
+    background-image: url("http://wideopentech.com/themes/wot-2013-gm/_/img/case-studies/VG-portfolio.png");
+    background-position: center;
+    background-size: contain;
+
+}
+.block3{
+    background-image: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/case-studies/CI-portfolio.png");
+    background-position: center;
+    background-size: contain;
+}
+.block4{
+    background-image: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/case-studies/KF-portfolio.png");
+    background-position: center;
+    background-size: contain;
+}
+.block5{
+    background-image: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/case-studies/NCMA-portfolio.png");
+    background-position: center;
+    background-size: contain;
+}
+.block6{
+    background-image: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/case-studies/TS-portfolio.png");
+    background-position: center;
+    background-size: contain;
+}
+
 @media screen and (max-width: 900px){
 
 }
